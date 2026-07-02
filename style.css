@@ -88,9 +88,8 @@ footer{
 
 footer > a{
     text-decoration: none;
-    tex
 }
 
 footer > a:hover{
-    color:white
+    color:white;
 }
