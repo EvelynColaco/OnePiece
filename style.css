@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'one piece';
+    src: url(fontes/one\ piece\ font.ttf);
+}
+
+@font-face {
+    font-family: 'pirata';
+    src: url(fontes/PirataOne-Regular.ttf);
+}
+
+:root{
+    --color01: #004882;
+    --color02: #F2B705;
+    --color03: #F20505;
+
+    --fonte-one-piece: 'one piece', cursive;
+    --fonte-pirata: 'pirata', cursive;
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif; 
+}
+
+body{
+    background-color: black;
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-image: linear-gradient(to top,var(--color01), black);
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-one-piece);
+    text-align: center;
+    padding: 10px;
+
+}
+
+header h1{
+    font-weight: normal;
+}
+
+nav{
+    background-color: var(--color01);
+    font-family: var(--fonte-padrao);
+    padding: 10px
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+nav a:hover{
+    background-color: var(--color02);
+    transition-duration: 0.5s;
+
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    padding: 20px;
+}
+
+main > h2{
+    background-image: linear-gradient(to left, white, var(--color02));
+    color: white;
+}
+
+main img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* add imagens responsivas */
+
+footer{
+    background-color: var(--color01);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer > a{
+    text-decoration: none;
+    tex
+}
+
+footer > a:hover{
+    color:white
+}
